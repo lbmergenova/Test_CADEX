@@ -22,4 +22,4 @@ rewrite libcurve.so
 c++ -fPIC -shared Point.cpp Helix.cpp Ellipse.cpp Circle.cpp -o libcurve.so
 
 check for leaks  
-valgrind --leak-check=full ./curve
+valgrind --leak-check=full ./curves
