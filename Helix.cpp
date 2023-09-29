@@ -21,7 +21,7 @@
     }
 
     std::ostream &operator<<(std::ostream &os, const Helix &h) {
-        os << "helix r=" << h._r << ", h=" << h._r;
+        os << "helix r=" << h._r << ", h=" << h._h;
         return os;
     }
 
